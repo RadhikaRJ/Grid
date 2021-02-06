@@ -1,5 +1,7 @@
 
 .grid-container{
+    margin:0 auto;
+    max-width:675px;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows:1fr 2fr 1fr;
