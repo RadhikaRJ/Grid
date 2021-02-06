@@ -1,0 +1,19 @@
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 2fr 1fr;
+
+}
+.header{
+    border:2px solid green;
+}
+.menu{
+    border:2px solid blue;
+}
+.content{
+    border:2px solid purple;
+}
+.footer{
+    border:2px solid red;
+}
