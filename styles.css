@@ -1,21 +1,25 @@
-
-.grid-container{
+.body{
+    border: 2px solid black;
     margin:0 auto;
+    height:100%;
     max-width:675px;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:1fr 2fr 1fr;
+}
+p{
+    margin:0;
+}
+.box{
+    width:100px;
+    height:fit-content;
+    background-color: orange;
+    text-align:center;
+   font-size: xx-large;
+   border:2px solid red;
+   color:white;
+   margin-bottom: 0;
 
 }
-.header{
-    border:2px solid green;
-}
-.menu{
-    border:2px solid blue;
-}
-.content{
-    border:2px solid purple;
-}
-.footer{
-    border:2px solid red;
+.grid-container{   
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns:100px 100px;
 }
