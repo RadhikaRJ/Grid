@@ -1,25 +1,18 @@
-.body{
-    border: 2px solid black;
-    margin:0 auto;
-    height:100%;
-    max-width:675px;
-}
-p{
-    margin:0;
-}
-.box{
-    width:100px;
-    height:fit-content;
+div {
+    width: 100px;
+    height: fit-content;
     background-color: orange;
-    text-align:center;
-   font-size: xx-large;
-   border:2px solid red;
-   color:white;
-   margin-bottom: 0;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid red;
+    color: white;
+    margin: 0;
+}
 
+.grid-container {
+    border: 2px solid green;
+    
+    
 }
-.grid-container{   
-    display:grid;
-    grid-gap:5px;
-    grid-template-columns:100px 100px;
-}
+/* display: grid;
+    grid-gap: 5px; */
