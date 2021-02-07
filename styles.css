@@ -1,6 +1,5 @@
-div {
-    width: 100px;
-    height: fit-content;
+
+div {    
     background-color: orange;
     text-align: center;
     font-size: xx-large;
@@ -9,10 +8,15 @@ div {
     margin: 0;
 }
 
-.grid-container {
+.grid-container{
+    background-color: white;
     border: 2px solid green;
-    
-    
+    display: grid;
+    grid-gap: 10px;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
-/* display: grid;
-    grid-gap: 5px; */
+/* 
+    grid-template-columns: 100px auto 100px 100px;
+    grid-template-rows: 50px 50px; */
